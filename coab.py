@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import cv2
+
 
 def convertToBinary(data):
     newdata = [format(ord(i), '08b') for i in data]
